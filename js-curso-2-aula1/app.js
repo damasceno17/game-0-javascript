@@ -1,12 +1,12 @@
 // let titulo = document.querySelector('h1');
 // titulo.innerHTML = 'Game 0';
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10
+let numeroLimite = 50
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
+paragrafo.innerHTML = 'Escolha um número entre 1 e 50';
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
